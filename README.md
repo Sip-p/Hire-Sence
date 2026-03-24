@@ -8,7 +8,7 @@ A full-stack job portal built using the MERN stack (MongoDB, Express.js, React.j
 
 👉 Frontend Code: https://github.com/Sip-p/jobportal-client  
 👉 Backend Code: https://github.com/Sip-p/jobportal-server  
-👉 Live Demo: (Add your deployed link here if available)
+👉 Live Demo: (https://jobportal-client-liard.vercel.app/)
 
 ---
 
