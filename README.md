@@ -1,28 +1,68 @@
-# 🚀 Hire-Sense - Full Stack Job Portal
+# 🚀 Hire-Sense - MERN Job Portal
+
+A full-stack job portal built using the MERN stack (MongoDB, Express.js, React.js, Node.js) that connects job seekers and recruiters with real-time application tracking, authentication, and dashboard analytics.
+
+---
 
 ## 🔗 Quick Access
-👉 Frontend Code: https://github.com/yourusername/frontend  
-👉 Backend Code: https://github.com/yourusername/backend  
-👉 Live Demo: https://your-link.com  
+
+👉 Frontend Code: https://github.com/Sip-p/jobportal-client  
+👉 Backend Code: https://github.com/Sip-p/jobportal-server  
+👉 Live Demo: (Add your deployed link here if available)
 
 ---
 
 ## 💻 Tech Stack
-- React, Tailwind CSS
-- Node.js, Express.js
-- MongoDB
-- JWT, Clerk
+
+### Frontend
+- React.js
+- Tailwind CSS
+- Context API
+- React-Quill (Rich text editor)
+- Framer Motion & GSAP (Animations)
+
+### Backend
+- Node.js
+- Express.js
+- MongoDB (Mongoose)
+- RESTful APIs
+
+### Authentication & Security
+- Clerk (SSO for candidates)
+- JWT Authentication (recruiters)
+- bcrypt (password hashing)
+
+### Media & Integrations
+- Multer (file uploads)
+- Cloudinary (image & resume storage)
+- Svix (Clerk webhooks)
 
 ---
 
 ## ✨ Features
-- Job posting & applications
-- Recruiter dashboard
-- Resume upload
-- Secure authentication
+
+- 👤 Dual-role system (Candidate & Recruiter)
+- 📝 Job posting and application tracking
+- 📊 Recruiter dashboard with analytics
+- 📄 Resume upload (PDF support)
+- 🔐 Secure authentication & authorization
+- ⚡ Real-time data handling and smooth UI experience
+- 🎨 Responsive UI with modern animations
 
 ---
 
-## 📂 Repositories
-- Frontend: https://github.com/yourusername/frontend  
-- Backend: https://github.com/yourusername/backend  
+## 🧠 System Design Highlights
+
+- Designed a **dual-authentication system** combining Clerk SSO and custom JWT flows
+- Built **scalable REST APIs** with Express.js
+- Modeled **complex relationships** between users, jobs, and applications using MongoDB
+- Implemented **cloud-based media storage** to reduce server load
+
+---
+
+## ⚙️ Installation & Setup
+
+### 1. Clone Repositories
+```bash
+git clone https://github.com/Sip-p/jobportal-client
+git clone https://github.com/Sip-p/jobportal-server
